@@ -51,6 +51,11 @@ a new method `void DFPlayerMini::completeCommand()` could be used to finish tran
 #### Examples:
 ##### Player setup:
 ```
+#include <DFPlayerMini_t3.h> 
+DFPlayerMini player;
+
+...
+
 void setupPlayer() {
   Serial.begin(9600);
   delay(100);
@@ -73,6 +78,10 @@ void setupPlayer() {
 
 ##### Asyncronous control with TaskScheduler
 ```
+#include <TaskScheduler.h>
+#include <DFPlayerMini_t3.h> 
+DFPlayerMini player;
+
 // Task definition:
 Task  tPlayerIterator(10 * TASK_MILLISECOND, TASK_FOREVER, &iterateCallback, &ts, false);
 
