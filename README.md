@@ -64,15 +64,16 @@ void setupPlayer() {
   player.begin(Serial, false, true);  // No ACK, reset
 
   player.setTimeOut(500);
-  player.volume(volume);  			// Set volume value (0~30).
+  player.volume(volume);  			    // Set volume value (0~30).
   player.completeCommand();         // Complete synchronously 
 
   //----Set different EQ----
   player.EQ(DFPLAYER_EQ_NORMAL);
-
+  player.completeCommand();         // Complete synchronously 
+  
   //----Set device we use SD as default----
   player.outputDevice(DFPLAYER_DEVICE_SD);
-  player.completeCommand();
+  player.completeCommand();         // Complete synchronously 
 }
 ```
 
