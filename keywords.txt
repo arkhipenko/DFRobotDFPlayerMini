@@ -1,0 +1,74 @@
+#######################################
+# Syntax Coloring Map for OneButton
+#######################################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+waitAvailable	KEYWORD2
+available	KEYWORD2
+commandCompleted	KEYWORD2
+completeCommand	KEYWORD2
+available	KEYWORD2
+readType	KEYWORD2
+read	KEYWORD2
+setTimeOut	KEYWORD2
+next	KEYWORD2
+previous	KEYWORD2
+play	KEYWORD2
+volumeUp	KEYWORD2
+volumeDown	KEYWORD2
+volume	KEYWORD2
+EQ	KEYWORD2
+loop	KEYWORD2
+outputDevice	KEYWORD2
+sleep	KEYWORD2
+reset	KEYWORD2
+start	KEYWORD2
+pause	KEYWORD2
+playFolder	KEYWORD2
+outputSetting	KEYWORD2
+enableLoopAll	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+DFPlayerMini	KEYWORD2
+DFRobotDFPlayerMini	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+DFPLAYER_EQ_NORMAL	LITERAL1
+DFPLAYER_EQ_POP	LITERAL1
+DFPLAYER_EQ_ROCK	LITERAL1
+DFPLAYER_EQ_JAZZ	LITERAL1
+DFPLAYER_EQ_CLASSIC	LITERAL1
+DFPLAYER_EQ_BASS	LITERAL1
+DFPLAYER_DEVICE_U_DISK	LITERAL1
+DFPLAYER_DEVICE_SD	LITERAL1
+DFPLAYER_DEVICE_AUX	LITERAL1
+DFPLAYER_DEVICE_SLEEP	LITERAL1
+DFPLAYER_DEVICE_FLASH	LITERAL1
+DFPLAYER_RECEIVED_LENGTH	LITERAL1
+DFPLAYER_SEND_LENGTH	LITERAL1
+DFPlayerCardInserted	LITERAL1
+DFPlayerCardRemoved	LITERAL1
+DFPlayerCardOnline	LITERAL1
+DFPlayerPlayFinished	LITERAL1
+DFPlayerError	LITERAL1
+DFPlayerUSBInserted	LITERAL1
+DFPlayerUSBRemoved	LITERAL1
+DFPlayerUSBOnline	LITERAL1
+DFPlayerCardUSBOnline	LITERAL1
+DFPlayerFeedBack	LITERAL1
